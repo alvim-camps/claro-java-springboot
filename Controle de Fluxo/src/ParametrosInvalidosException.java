@@ -1,6 +1,4 @@
-import java.security.InvalidParameterException;
+import java.lang.IllegalArgumentException;
 
-public class ParametrosInvalidosException extends InvalidParameterException {
-    
+public class ParametrosInvalidosException extends IllegalArgumentException {
 }
-
